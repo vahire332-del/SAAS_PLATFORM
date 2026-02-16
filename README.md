@@ -157,6 +157,101 @@ For production deployments, implement:
 | Testimonials | `/testimonials` | Customer testimonials |
 | Coming Soon | `/coming-soon` | Upcoming features preview |
 
+## 📸 Screenshots
+
+### Landing Page
+The beautiful landing page with "Squid" branding, featuring a modern dark theme with gradient buttons and animated background elements.
+
+![Landing Page](./public/screenshots/01-landing-page.png)
+
+### Homepage with Contact Form
+Complete homepage view showing the contact form section with globe graphic and navigation menu with "Home", "Login", and "Download Template" buttons.
+
+![Homepage Contact Section](./public/screenshots/02-homepage-contact.png)
+
+### Registration Page
+User registration form with fields for Full Name, Email, Password, and Repeat Password, along with social authentication options (Google & Twitter).
+
+![Register Page](./public/screenshots/03-register-page.png)
+
+### Login Page
+Professional login interface with email and password fields, featuring demo credentials (vaibhavi8@gmail.com), login button, and registration link with social login options.
+
+![Login Page](./public/screenshots/04-login-page.png)
+
+### Dashboard - Users Management
+Complete user management interface showing a list of users with search functionality, sorting options (Sort A-Z), and detailed user information including name, email, and company.
+
+![Dashboard Users](./public/screenshots/05-dashboard-users.png)
+
+### Dashboard - Overview
+Dashboard overview page displaying key metrics in cards:
+- Total Users: 10
+- Companies: 10
+- Email Domains: 10
+- Websites: 10
+
+![Dashboard Overview](./public/screenshots/06-dashboard-overview.png)
+
+### Dashboard Settings
+User settings page with profile customization options including:
+- Display Name field
+- Email field
+- Dark/Light mode toggle
+- Save Changes button
+
+![Dashboard Settings](./public/screenshots/07-dashboard-settings.png)
+
+### Pricing Page - Monthly Plan
+Professional pricing page showing three service tiers:
+- Silver Package: $40/month
+- Golden Package: $70/month
+- Premium Package: $120/month
+
+Each package includes features like free templates, team members, priority support, and integrations.
+
+![Pricing Page Monthly](./public/screenshots/08-pricing-monthly.png)
+
+### Pricing Page - Yearly Plan
+Same pricing page switched to yearly billing with discounted rates:
+- Silver Package: $32/month (annually)
+- Golden Package: $56/month (annually)
+- Premium Package: $96/month (annually)
+
+![Pricing Page Yearly](./public/screenshots/09-pricing-yearly.png)
+
+### Register Page with Testimonials
+Registration page showcasing customer testimonials on the right side with profile pictures, featuring three visible testimonial cards from happy customers.
+
+![Register with Testimonials](./public/screenshots/10-register-testimonials.png)
+
+### Testimonials Page
+Full testimonials section displaying carousel of customer reviews with 5-star ratings, customer names, and their company affiliations. Smooth sliding carousel with pagination dots.
+
+![Testimonials Page](./public/screenshots/11-testimonials.png)
+
+### FAQ Page
+Comprehensive Frequently Asked Questions section with expandable accordion items covering:
+- How to use this template?
+- What are your shipping rates?
+- What is your refund policy?
+- How can I track my order?
+- I received the wrong item, what do I do?
+- What are benefits of this template?
+- Best web design agency ever is?
+- How can I order web design services?
+- How promote the product?
+
+![FAQ Page](./public/screenshots/12-faq.png)
+
+### Coming Soon Page
+Coming soon preview page highlighting upcoming features:
+- Inner Pages
+- 40+ Sections
+- HTML/CSS Version
+
+![Coming Soon Page](./public/screenshots/13-coming-soon.png)
+
 ## 🎨 Component Library
 
 ### Sidebar
