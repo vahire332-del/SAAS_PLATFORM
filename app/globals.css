@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-poppins: var(--font-poppins); /* Add Poppins to theme */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000; /* Match design background */
+    --foreground: #ededed;
+  }
+}
+
+/* Force dark mode for this landing page as per design, or respect system preference if desired.
+   Given the specific hex codes provided (#000000 background), it seems to be a dark-themed design.
+   I'll set the default :root to the dark values from the design for consistency.
+*/
+:root {
+   --background: #000000;
+   --foreground: #ffffff;
+}
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-poppins), Arial, Helvetica, sans-serif; /* Set Poppins as default */
+}
