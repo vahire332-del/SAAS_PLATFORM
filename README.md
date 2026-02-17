@@ -418,11 +418,7 @@ This project is open source and available under the **MIT License**. See LICENSE
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/)
 - [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
 
-## 📞 Support & Contact
 
-- **Issues**: Open an issue on GitHub for bugs or feature requests
-- **Discussions**: Use GitHub Discussions for questions
-- **Email**: [contact information if applicable]
 
 ## 🙏 Acknowledgments
 
