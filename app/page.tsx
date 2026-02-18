@@ -1,4 +1,4 @@
-import React from 'react';
+  import React from 'react';
 import Link from 'next/link';
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
           className="absolute top-[-4px] w-[1px] h-[851px]"
           style={{
             left: `${left}px`,
-            background: 'linear-gradient(180deg, #404047 0%, rgba(64, 64, 71, 0) 65.45%)'
+            background: 'linear-gradient(180deg, rgba(64, 64, 71, 0.35) 0%, rgba(64, 64, 71, 0.18) 30%, rgba(64, 64, 71, 0) 78%)'
           }}
         />
       ))}
@@ -30,7 +30,16 @@ export default function Home() {
         className="absolute top-[-4px] w-[1px] h-[773px]"
         style={{
           left: '1333px',
-          background: 'linear-gradient(180deg, #404047 0%, rgba(64, 64, 71, 0) 65.45%)'
+          background: 'linear-gradient(180deg, rgba(64, 64, 71, 0.35) 0%, rgba(64, 64, 71, 0.18) 30%, rgba(64, 64, 71, 0) 78%)'
+        }}
+      />
+
+      {/* Ellipse 5 */}
+      <div
+        className="absolute left-[451px] top-[-30px] w-[538px] h-[538px] pointer-events-none"
+        style={{
+          background:
+            "radial-gradient(50% 50% at 50% 50%, #222228 0%, rgba(34, 34, 40, 0) 100%)",
         }}
       />
 
@@ -41,6 +50,66 @@ export default function Home() {
       {/* Rectangle 59 */}
       <div className="absolute left-[-3px] top-[634.98px] w-[1446px] h-[616.42px] pointer-events-none"
         style={{ background: 'linear-gradient(92.51deg, #FF9898 0.48%, #8054FF 100%)', opacity: 0.1, filter: 'blur(120px)' }} />
+
+      {/* Ellipse 3 */}
+      <div className="absolute left-[1223px] top-[303px] w-[96px] h-[96px] pointer-events-none">
+        <svg width="136" height="136" viewBox="0 0 136 136" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute -left-[20px] -top-[20px]">
+          <g filter="url(#filter0_f_408_1327)">
+            <circle cx="68" cy="68" r="48" fill="url(#paint0_radial_408_1327)" />
+          </g>
+          <defs>
+            <filter id="filter0_f_408_1327" x="0" y="0" width="136" height="136" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_408_1327" />
+            </filter>
+            <radialGradient id="paint0_radial_408_1327" cx="0" cy="0" r="1" gradientTransform="matrix(3.99998 101.2 -1153.96 1014.13 61.2 13.1999)" gradientUnits="userSpaceOnUse">
+              <stop stopColor="#494955" />
+              <stop offset="1" stopColor="#141414" />
+            </radialGradient>
+          </defs>
+        </svg>
+      </div>
+
+      {/* Ellipse 13 */}
+      <div className="absolute left-[656px] top-[70px] w-[64px] h-[64px] pointer-events-none">
+        <svg width="104" height="104" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute -left-[20px] -top-[20px]">
+          <g filter="url(#filter0_f_408_1328)">
+            <circle cx="52" cy="52" r="32" fill="url(#paint0_radial_408_1328)" />
+          </g>
+          <defs>
+            <filter id="filter0_f_408_1328" x="0" y="0" width="104" height="104" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_408_1328" />
+            </filter>
+            <radialGradient id="paint0_radial_408_1328" cx="0" cy="0" r="1" gradientTransform="matrix(2.66666 67.4667 -769.307 676.085 47.4667 15.4666)" gradientUnits="userSpaceOnUse">
+              <stop stopColor="#494955" />
+              <stop offset="1" stopColor="#141414" />
+            </radialGradient>
+          </defs>
+        </svg>
+      </div>
+
+      {/* Ellipse 14 */}
+      <div className="absolute left-[122px] top-[400px] w-[130px] h-[130px] pointer-events-none">
+        <svg width="190" height="190" viewBox="0 0 190 190" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute -left-[30px] -top-[30px]">
+          <g filter="url(#filter0_f_408_1329)">
+            <circle cx="95" cy="95" r="65" fill="url(#paint0_radial_408_1329)" />
+          </g>
+          <defs>
+            <filter id="filter0_f_408_1329" x="0" y="0" width="190" height="190" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="15" result="effect1_foregroundBlur_408_1329" />
+            </filter>
+            <radialGradient id="paint0_radial_408_1329" cx="0" cy="0" r="1" gradientTransform="matrix(5.41665 137.042 -1562.65 1373.3 85.7917 20.7916)" gradientUnits="userSpaceOnUse">
+              <stop stopColor="#494955" />
+              <stop offset="1" stopColor="#141414" />
+            </radialGradient>
+          </defs>
+        </svg>
+      </div>
 
       {/* Ellipse 16 */}
       <div className="absolute left-[-147.02px] top-[376.88px] w-[1732.9px] h-[516.18px] bg-[#D9D9D9] opacity-5 filter blur-[100px] pointer-events-none" />
@@ -118,76 +187,48 @@ export default function Home() {
       {/* Visual Mockup - Rectangle 6 */}
       <div className="absolute w-[866px] h-[553px] left-[287px] top-[551px] bg-[#131415] rounded-[28px] flex items-center justify-center shadow-2xl overflow-hidden border border-[#222228]">
         {/* Rectangle 40 - Sidebar */}
-        <div className="absolute w-[246px] h-[460px] left-[53px] top-[43px] bg-[#222228] rounded-[20px] flex flex-col items-center py-8 gap-4">
-          {/* Logo Icon */}
-          <div className="w-12 h-12 mb-2 bg-[#2A2A2E] rounded-[12px] flex items-center justify-center">
+        <div className="absolute w-[246px] h-[460px] left-[53px] top-[43px] bg-[#222228] rounded-[20px]">
+          <div className="absolute left-[84px] top-[26px] w-[77px] h-[62px] flex items-center justify-center">
             <svg width="41" height="33" viewBox="0 0 41 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M38.6885 19.9414C35.7245 17.0666 30.8972 17.1435 27.9288 20.1105L25.7447 22.2936L23.6091 20.1589L27.6673 16.1025C31.1543 12.6171 31.1543 6.94436 27.6673 3.459L26.8258 2.61786C25.1339 0.92899 22.8884 0 20.5 0C18.1116 0 15.8639 0.92899 14.1764 2.61786L13.3349 3.459C9.84791 6.94436 9.84791 12.6171 13.3349 16.1025L17.3931 20.1589L15.2574 22.2936L12.9855 20.0227C11.5024 18.5403 9.55568 17.8001 7.60675 17.8001C5.65782 17.8001 3.71109 18.5403 2.22797 20.0227C0.790997 21.4612 0 23.3697 0 25.4012C0 27.4327 0.790997 29.3411 2.22797 30.7775C3.66275 32.2116 5.57213 33 7.60675 33C9.64137 33 11.5507 32.2116 12.9855 30.7775L15.2574 28.5066L17.5843 30.8368C18.3621 31.6142 19.3948 32.0447 20.4956 32.0447C21.5964 32.0447 22.6313 31.6164 23.4091 30.8389L25.7447 28.5044L27.9288 30.6874C29.3965 32.1545 31.352 32.9627 33.4328 32.9627C35.5136 32.9627 37.2867 32.2138 38.6885 30.8565C40.1782 29.4114 41 27.4722 41 25.399C41 23.3258 40.1782 21.3865 38.6885 19.9414ZM9.87867 27.6698C9.27224 28.276 8.46586 28.6076 7.60675 28.6076C6.74764 28.6076 5.94126 28.2738 5.33483 27.6698C4.7284 27.0659 4.39443 26.2577 4.39443 25.399C4.39443 24.5403 4.7284 23.7343 5.33483 23.1281C5.94126 22.522 6.74764 22.1881 7.60675 22.1881C8.46586 22.1881 9.27224 22.522 9.87867 23.1281L12.1506 25.399L9.87867 27.6698ZM20.4978 27.5381L19.7156 26.7562L18.3621 25.4012L20.4758 23.2862L20.6516 23.4202L22.6313 25.399L20.4934 27.5359L20.4978 27.5381ZM21.9875 15.5688L20.5022 17.0534L16.4439 12.9971C14.6708 11.2247 14.6708 8.33895 16.4439 6.56442L17.2855 5.72328C18.1446 4.86457 19.2871 4.39019 20.5022 4.39019C21.7173 4.39019 22.8598 4.86237 23.7189 5.72328L24.5604 6.56442C26.3336 8.33675 26.3336 11.2225 24.5604 12.9971L21.9875 15.5688ZM35.63 27.705C35.0258 28.2914 34.2348 28.5813 33.4328 28.5813C32.5715 28.5813 31.7014 28.2474 31.0378 27.5842L28.8538 25.4012L31.0378 23.2182C32.3188 21.9378 34.3798 21.8829 35.63 23.0952C36.2606 23.7057 36.6078 24.5249 36.6078 25.4012C36.6078 26.2775 36.2606 27.0966 35.63 27.7072V27.705Z"
-                fill="white"
-              />
+              <path d="M38.6885 19.9414C35.7245 17.0666 30.8972 17.1435 27.9288 20.1105L25.7447 22.2936L23.6091 20.1589L27.6673 16.1025C31.1543 12.6171 31.1543 6.94436 27.6673 3.459L26.8258 2.61786C25.1339 0.92899 22.8884 0 20.5 0C18.1116 0 15.8639 0.92899 14.1764 2.61786L13.3349 3.459C9.84791 6.94436 9.84791 12.6171 13.3349 16.1025L17.3931 20.1589L15.2574 22.2936L12.9855 20.0227C11.5024 18.5403 9.55568 17.8001 7.60675 17.8001C5.65782 17.8001 3.71109 18.5403 2.22797 20.0227C0.790997 21.4612 0 23.3697 0 25.4012C0 27.4327 0.790997 29.3411 2.22797 30.7775C3.66275 32.2116 5.57213 33 7.60675 33C9.64137 33 11.5507 32.2116 12.9855 30.7775L15.2574 28.5066L17.5843 30.8368C18.3621 31.6142 19.3948 32.0447 20.4956 32.0447C21.5964 32.0447 22.6313 31.6164 23.4091 30.8389L25.7447 28.5044L27.9288 30.6874C29.3965 32.1545 31.352 32.9627 33.4328 32.9627C35.5136 32.9627 37.2867 32.2138 38.6885 30.8565C40.1782 29.4114 41 27.4722 41 25.399C41 23.3258 40.1782 21.3865 38.6885 19.9414ZM9.87867 27.6698C9.27224 28.276 8.46586 28.6076 7.60675 28.6076C6.74764 28.6076 5.94126 28.2738 5.33483 27.6698C4.7284 27.0659 4.39443 26.2577 4.39443 25.399C4.39443 24.5403 4.7284 23.7343 5.33483 23.1281C5.94126 22.522 6.74764 22.1881 7.60675 22.1881C8.46586 22.1881 9.27224 22.522 9.87867 23.1281L12.1506 25.399L9.87867 27.6698ZM20.4978 27.5381L19.7156 26.7562L18.3621 25.4012L20.4758 23.2862L20.6516 23.4202L22.6313 25.399L20.4934 27.5359L20.4978 27.5381ZM21.9875 15.5688L20.5022 17.0534L16.4439 12.9971C14.6708 11.2247 14.6708 8.33895 16.4439 6.56442L17.2855 5.72328C18.1446 4.86457 19.2871 4.39019 20.5022 4.39019C21.7173 4.39019 22.8598 4.86237 23.7189 5.72328L24.5604 6.56442C26.3336 8.33675 26.3336 11.2225 24.5604 12.9971L21.9875 15.5688ZM35.63 27.705C35.0258 28.2914 34.2348 28.5813 33.4328 28.5813C32.5715 28.5813 31.7014 28.2474 31.0378 27.5842L28.8538 25.4012L31.0378 23.2182C32.3188 21.9378 34.3798 21.8829 35.63 23.0952C36.2606 23.7057 36.6078 24.5249 36.6078 25.4012C36.6078 26.2775 36.2606 27.0966 35.63 27.7072V27.705Z" fill="#313139" />
             </svg>
           </div>
 
-          {/* Search/Input Bar - Group 116 */}
-          <div className="w-[146px] h-[20px] mb-3 flex flex-row items-center gap-2.5">
-            {/* Rectangle 53 - Left Icon */}
-            <div className="w-[20px] h-[20px] bg-[#313139] rounded-[5px]" />
+          <div className="absolute w-[184px] left-[31px] top-[96px] border-t border-[#313139]" />
 
-            {/* Group 107 - Text Lines Container */}
-            <div className="flex flex-col gap-1.5">
-              {/* Top row with two elements */}
-              <div className="flex flex-row gap-1.5">
-                <div className="w-[74px] h-[6px] bg-[#313139] rounded-[33px]" />
-                <div className="w-[24px] h-[6px] bg-[#313139] rounded-[33px]" />
+          <div className="absolute left-[31px] top-[121px] w-[146px] flex flex-col gap-[22px]">
+            {[...Array(5)].map((_, i) => (
+              <div key={i} className="w-full h-[20px] flex items-center gap-[10px]">
+                <div className="w-[20px] h-[20px] bg-[#313139] rounded-[5px]" />
+                <div className="w-[106px] h-[20px] flex flex-col justify-between">
+                  <div className="flex gap-[8px]">
+                    <div className="w-[74px] h-[6px] bg-[#313139] rounded-[33px]" />
+                    <div className="w-[24px] h-[6px] bg-[#313139] rounded-[33px]" />
+                  </div>
+                  <div className="flex gap-[8px]">
+                    <div className="w-[36px] h-[6px] bg-[#313139] rounded-[33px]" />
+                    <div className="w-[24px] h-[6px] bg-[#313139] rounded-[33px]" />
+                  </div>
+                </div>
               </div>
-              {/* Bottom row with two elements */}
-              <div className="flex flex-row gap-1.5">
-                <div className="w-[36px] h-[6px] bg-[#313139] rounded-[33px]" />
-                <div className="w-[24px] h-[6px] bg-[#313139] rounded-[33px]" />
-              </div>
-            </div>
+            ))}
           </div>
 
-          {/* 5 Menu Rows */}
-          {[...Array(5)].map((_, i) => (
-            <div key={i} className="flex flex-row items-center w-[210px] h-[36px] opacity-30 gap-3">
-              <div className="w-8 h-8 rounded-[6px] bg-[#2A2A2E]" />
-              <div className="flex flex-col gap-1">
-                <div className="w-[100px] h-2.5 bg-[#2A2A2E] rounded-full" />
-                <div className="w-[60px] h-2 bg-[#2A2A2E] rounded-full" />
-              </div>
-            </div>
-          ))}
+          <div className="absolute left-[102px] top-[351px] w-[42px] h-[42px] rounded-full overflow-hidden">
+            <img src="/images/person 1.png" alt="avatar" className="w-full h-full object-cover" />
+          </div>
 
-          {/* Bottom Avatar Section */}
-          <div className="mt-auto flex flex-col items-center gap-2.5">
-            <div className="w-14 h-14 rounded-full bg-gradient-to-br from-pink-200 to-pink-300 border-2 border-[#2A2A2E] flex items-center justify-center overflow-hidden shadow-lg">
-              <img src="/images/alisa_logo.svg" className="w-full h-full object-cover" alt="avatar" />
+          <div className="absolute left-[70px] top-[414px] w-[106px] h-[20px] flex flex-col gap-[8px] ">
+            <div className="flex gap-[8px]">
+              <div className="w-[56px] h-[6px] bg-[#313139] rounded-[33px]" />
+              <div className="w-[42px] h-[6px] bg-[#313139] rounded-[33px]" />
             </div>
-            <div className="flex flex-col items-center gap-1.5">
-              <div className="w-[100px] h-2 bg-[#2A2A2E] rounded-full opacity-70" />
-              <div className="w-[80px] h-2 bg-[#2A2A2E] rounded-full opacity-50" />
-            </div>
+            <div className="w-[62px] h-[6px] bg-[#313139] rounded-[33px] ml-[22px]" />
           </div>
         </div>
 
         {/* Rectangle 43 - Circular Progress Card */}
         <div className="absolute w-[231px] h-[217px] left-[327px] top-[43px] bg-[#222228] rounded-[20px] flex flex-col items-center p-5">
-          {/* Header - Group 113 */}
-          <div className="w-[192px] h-[20px] flex justify-between items-start mb-4">
-            {/* Group 107 */}
-            <div className="w-[106px] h-[20px] flex flex-col gap-1.5">
-              <div className="w-[80px] h-[6px] bg-[#2A2A2E] rounded-full" />
-              <div className="flex gap-1.5">
-                <div className="w-[40px] h-[6px] bg-[#2A2A2E] rounded-full" />
-                <div className="w-[20px] h-[6px] bg-[#2A2A2E] rounded-full" />
-              </div>
-            </div>
-            {/* Rectangle 53 - Right Icon */}
-            <div className="w-[20px] h-[20px] bg-[#313139] rounded-[5px]" />
-          </div>
-
           {/* Circular Progress */}
           <div className="relative w-full flex items-center justify-center mt-2">
             <svg width="192" height="155" viewBox="0 0 192 155" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -301,7 +342,10 @@ export default function Home() {
           {/* User List Items */}
           <div className="flex flex-col w-full gap-4">
             {[...Array(4)].map((_, i) => (
-              <div key={i} className="flex flex-col">
+              <div
+                key={i}
+                className={`flex flex-col ${i === 2 ? 'opacity-70' : i === 3 ? 'opacity-35' : 'opacity-100'}`}
+              >
                 {/* Row Container - Group 108 */}
                 <div className="w-[192px] h-[54px] flex flex-row items-center justify-between">
                   {/* Left Side: Avatar + Text */}
@@ -312,7 +356,17 @@ export default function Home() {
                           i === 2 ? 'from-purple-400 to-indigo-400' :
                             'from-gray-400 to-gray-500'
                       }`}>
-                      <div className="w-[38px] h-[38px] rounded-full bg-[#2A2A2E] opacity-20" />
+                      <div className="w-[38px] h-[38px] rounded-full overflow-hidden">
+                        {i === 0 ? (
+                          <img src="/images/person 1.png" alt="User" className="w-full h-full object-cover" />
+                        ) : i === 1 ? (
+                          <img src="/images/Rectangle 69.png" alt="User" className="w-full h-full object-cover" />
+                        ) : i === 2 ? (
+                          <img src="/images/Rectangle 70.png" alt="User" className="w-full h-full object-cover" />
+                        ) : (
+                          <img src="/images/Rectangle 68.png" alt="User" className="w-full h-full object-cover" />
+                        )}
+                      </div>
                     </div>
 
                     {/* Text Group */}
